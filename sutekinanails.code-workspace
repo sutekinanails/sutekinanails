@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "service",
+			"path": "suteservice"
+		}
+	],
+	"settings": {}
+}
