@@ -1,2 +1,7 @@
 # sutekinanails
-All developement for beauty services.
+
+All developement for beauty services, named by the first beauty project.
+
+## Visual Studio Code Authorisation Token
+
+    vscode://GitHub.vscode-pull-request-github/did-authenticate?state=Xmn0YxtowTsu87n_9WRBTOHrAe4/eyJhdXRoU2VydmVyIjoiaHR0cHM6Ly9naXRodWIuY29tLyIsImNhbGxiYWNrVXJpIjoidnNjb2RlOi8vR2l0SHViLnZzY29kZS1wdWxsLXJlcXVlc3QtZ2l0aHViL2RpZC1hdXRoZW50aWNhdGUiLCJpZCI6bnVsbCwidG9rZW4iOnsiYWNjZXNzX3Rva2VuIjoiYmU1NTdkMzkxNWVjOGM2NmMwYjQ1ZTYzOTlmZTQwNTJkM2I5ZTQ0MiIsInRva2VuX3R5cGUiOiJiZWFyZXIiLCJzY29wZSI6InJlYWQ6dXNlcixyZXBvLHVzZXI6ZW1haWwsd3JpdGU6ZGlzY3Vzc2lvbiJ9LCJ0cyI6MTU1ODc1MTUxMTc4NX0
