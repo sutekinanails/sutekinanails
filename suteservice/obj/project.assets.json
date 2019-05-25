@@ -2142,11 +2142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/suteservice/suteservice.csproj",
+      "projectUniqueName": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.csproj",
       "projectName": "suteservice",
-      "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/suteservice/suteservice.csproj",
+      "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.csproj",
       "packagesPath": "/Users/rachellavoie/.nuget/packages/",
-      "outputPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/suteservice/obj/",
+      "outputPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
