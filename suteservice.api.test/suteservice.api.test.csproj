@@ -12,4 +12,10 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\suteservice.api\suteservice.api.csproj" />
+    <ProjectReference Include="..\suteservice.domain\suteservice.domain.csproj" />
+    <ProjectReference Include="..\suteservice.infrastructure\suteservice.infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

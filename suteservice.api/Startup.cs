@@ -10,13 +10,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using suteservice.api.Settings;
 
 namespace suteservice.api {
     public class Startup {
 
         public IConfiguration Configuration { get; }
 
-        public Startup (IWebHostEnvironment env) {
+        public Startup (IHostingEnvironment env) {
 
             var builder = new ConfigurationBuilder ()
                 .SetBasePath (env.ContentRootPath)

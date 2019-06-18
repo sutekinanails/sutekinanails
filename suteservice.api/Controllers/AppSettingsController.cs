@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using suteservice.api.Settings;
 
 namespace suteservice.api.Controllers {
     public class AppSettingsController : ControllerBase {
