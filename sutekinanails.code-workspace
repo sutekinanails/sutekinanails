@@ -4,8 +4,12 @@
 			"path": "."
 		},
 		{
-			"name": "service",
-			"path": "suteservice"
+			"name": "api",
+			"path": "suteservice.api"
+		},
+		{
+			"name": "api test",
+			"path": "suteservice.api.test"
 		}
 	],
 	"settings": {}

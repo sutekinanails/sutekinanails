@@ -4,8 +4,8 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:38678",
-      "sslPort": 44303
+      "applicationUrl": "http://localhost:46027",
+      "sslPort": 44389
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "suteservice": {
+    "suteservice.api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",
