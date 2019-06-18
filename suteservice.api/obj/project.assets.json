@@ -4438,6 +4438,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "suteservice.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/suteservice.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/suteservice.domain.dll": {}
+        }
+      },
+      "suteservice.infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "suteservice.domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/suteservice.infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/suteservice.infrastructure.dll": {}
+        }
       }
     }
   },
@@ -12070,13 +12093,25 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "suteservice.domain/1.0.0": {
+      "type": "project",
+      "path": "../suteservice.domain/suteservice.domain.csproj",
+      "msbuildProject": "../suteservice.domain/suteservice.domain.csproj"
+    },
+    "suteservice.infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../suteservice.infrastructure/suteservice.infrastructure.csproj",
+      "msbuildProject": "../suteservice.infrastructure/suteservice.infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "suteservice.domain >= 1.0.0",
+      "suteservice.infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12106,7 +12141,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/suteservice.domain.csproj": {
+              "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/suteservice.domain.csproj"
+            },
+            "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.infrastructure/suteservice.infrastructure.csproj": {
+              "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.infrastructure/suteservice.infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
