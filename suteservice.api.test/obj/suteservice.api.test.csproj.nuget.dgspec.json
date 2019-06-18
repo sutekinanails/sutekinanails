@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api.test/suteservice.api.test.csproj": {}
+    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api.test/suteservice.api.test.csproj": {}
   },
   "projects": {
-    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api.test/suteservice.api.test.csproj": {
+    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api.test/suteservice.api.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api.test/suteservice.api.test.csproj",
+        "projectUniqueName": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api.test/suteservice.api.test.csproj",
         "projectName": "suteservice.api.test",
-        "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api.test/suteservice.api.test.csproj",
+        "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api.test/suteservice.api.test.csproj",
         "packagesPath": "/Users/rachellavoie/.nuget/packages/",
-        "outputPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api.test/obj/",
+        "outputPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api.test/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -20,7 +20,7 @@
           "/Users/rachellavoie/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
@@ -32,7 +32,7 @@
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -43,41 +43,32 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.0.1, )"
+              "version": "[16.1.1, )"
             },
-            "Microsoft.NETCore.Platforms": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview5.19224.8, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
             "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0-preview5-27626-15, 3.0.0-preview5-27626-15]"
-            }
-          ],
-          "frameworkReferences": [
-            "Microsoft.NETCore.App"
-          ]
+          "warn": true
         }
       }
     }

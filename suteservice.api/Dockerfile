@@ -1,0 +1,45 @@
+# Starting from image dotnet core asp version 2.2
+FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
+WORKDIR /app
+EXPOSE 8080
+
+# Copy csproj and restore referenced packages in distinct directory
+FROM microsoft/dotnet:2.2-sdk AS build
+WORKDIR "/src/suteservice.api"
+COPY ["suteservice.api.csproj", "./"]
+RUN dotnet restore "suteservice.api.csproj"
+
+# Copy everything else and build
+COPY . .
+RUN dotnet build "suteservice.api.csproj" -c Release -o /app
+
+# Build runtime image including the dotnet sdk version 2.2
+FROM build AS publish
+RUN dotnet publish "suteservice.api.csproj" -c Release -o /app
+
+# Create Docker Image from the aspnetcore runtime version 2.2
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "suteservice.api.dll"]
+
+
+
+
+# FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
+# WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+# COPY *.csproj ./
+# RUN dotnet restore
+
+# Copy everything else and build
+# COPY . ./
+# RUN dotnet publish -c Release -o out
+
+# Build runtime image
+# FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
+# WORKDIR /app
+# COPY --from=build-env /app/out .
+# ENTRYPOINT ["dotnet", "suteservice.api.dll"]
+

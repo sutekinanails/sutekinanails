@@ -1,0 +1,14 @@
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.csprojAssemblyReference.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.csproj.CoreCompileInputs.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.RazorAssemblyInfo.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.RazorAssemblyInfo.cs
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.AssemblyInfoInputs.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.AssemblyInfo.cs
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/bin/Debug/netcoreapp2.2/suteservice.api.deps.json
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/bin/Debug/netcoreapp2.2/suteservice.api.runtimeconfig.json
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/bin/Debug/netcoreapp2.2/suteservice.api.runtimeconfig.dev.json
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/bin/Debug/netcoreapp2.2/suteservice.api.dll
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/bin/Debug/netcoreapp2.2/suteservice.api.pdb
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.RazorTargetAssemblyInfo.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.dll
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Debug/netcoreapp2.2/suteservice.api.pdb

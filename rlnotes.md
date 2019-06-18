@@ -74,4 +74,3 @@ Where:
 * `-d` tell Docker that we want to run *detached*. When running detached, the container is run like a service, with no interaction possible from the user. Perfect when running on a server. On your development machine, however, you most likely would want to use the `-it` option instead, to run it *interactive* and be able to see the logs from your application.
 
 This touches only the surface of all that is Docker. If you have any questions or need help during development, don't hesitate to reach out to me.
-

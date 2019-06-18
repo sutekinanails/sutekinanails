@@ -1,36 +1,74 @@
 {
     "version": "2.0.0",
+    "presentation": {
+        "panel": "shared",
+        "reveal": "always"
+    },
+    "problemMatcher": "$tsc",
     "tasks": [
         {
-            "label": "build",
+            "label": "build api",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/suteservice/suteservice.csproj"
-            ],
-            "problemMatcher": "$tsc"
+                "${workspaceFolder}/suteservice.api/suteservice.api.csproj"
+            ]
         },
         {
-            "label": "publish",
+            "label": "publish api",
             "command": "dotnet",
             "type": "process",
+            "dependsOn" : "build api",
             "args": [
                 "publish",
-                "${workspaceFolder}/suteservice/suteservice.csproj"
-            ],
-            "problemMatcher": "$tsc"
+                "${workspaceFolder}/suteservice.api/suteservice.api.csproj"
+            ]
         },
         {
-            "label": "watch",
-            "command": "dotnet",
+            "label": "Docker build",
+            "command": "docker-compose",
+            "type": "process",
+            "group": "build",
+            "dependsOn" : "build api",
+            "args": [
+                "build"
+            ],
+        },
+        {
+            "label": "Docker publish",
+            "command": "docker",
             "type": "process",
             "args": [
-                "watch",
-                "run",
-                "${workspaceFolder}/suteservice/suteservice.csproj"
+                "push",
+                "sutekinanails/suteservice:latest"
             ],
-            "problemMatcher": "$tsc"
+            "group": "none",
+            "dependsOn" : "Docker build"
+        },
+        {
+            "label": "Docker run",
+            "command": "docker-compose",
+            "type": "process",
+            "args": [
+                "up"
+            ],
+            "group": "none",
+            "dependsOn" : "Docker build",
+        },
+        {
+            "label": "Docker down",
+            "command": "docker-compose",
+            "type": "process",
+            "args": [
+                "down"
+            ],
+            "group": "none",
+            "dependsOn" : "Docker build",
+        },
+        {
+            "label": "Build All",
+            "dependsOn": ["Build api", "Build client", "Docker build"]
         }
     ]
 }

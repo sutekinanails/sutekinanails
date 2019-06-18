@@ -1,0 +1,9 @@
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/bin/Debug/netcoreapp2.2/suteservice.domain.deps.json
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/bin/Debug/netcoreapp2.2/suteservice.domain.dll
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/bin/Debug/netcoreapp2.2/suteservice.domain.pdb
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/obj/Debug/netcoreapp2.2/suteservice.domain.csprojAssemblyReference.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/obj/Debug/netcoreapp2.2/suteservice.domain.csproj.CoreCompileInputs.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/obj/Debug/netcoreapp2.2/suteservice.domain.AssemblyInfoInputs.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/obj/Debug/netcoreapp2.2/suteservice.domain.AssemblyInfo.cs
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/obj/Debug/netcoreapp2.2/suteservice.domain.dll
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.domain/obj/Debug/netcoreapp2.2/suteservice.domain.pdb

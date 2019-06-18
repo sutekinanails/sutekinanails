@@ -1,0 +1,6 @@
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Release/netcoreapp2.2/suteservice.api.csprojAssemblyReference.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Release/netcoreapp2.2/suteservice.api.csproj.CoreCompileInputs.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Release/netcoreapp2.2/suteservice.api.AssemblyInfoInputs.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Release/netcoreapp2.2/suteservice.api.AssemblyInfo.cs
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Release/netcoreapp2.2/suteservice.api.RazorAssemblyInfo.cache
+/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/Release/netcoreapp2.2/suteservice.api.RazorAssemblyInfo.cs

@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suteservice.api", "suteservice.api\suteservice.api.csproj", "{5A2C4ADB-CB8E-4B37-A467-1D0D1AC7FD16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suteservice.api.test", "suteservice.api.test\suteservice.api.test.csproj", "{CC7DE361-E705-450C-AB08-5987259D2C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suteservice.domain", "suteservice.domain\suteservice.domain.csproj", "{A9FF815C-3489-43E9-99D7-70BC572C5475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suteservice.infrastructure", "suteservice.infrastructure\suteservice.infrastructure.csproj", "{56B94246-696D-46C3-9EA6-4727B0C5494F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +60,41 @@ Global
 		{5A2C4ADB-CB8E-4B37-A467-1D0D1AC7FD16}.Release|x64.Build.0 = Release|Any CPU
 		{5A2C4ADB-CB8E-4B37-A467-1D0D1AC7FD16}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A2C4ADB-CB8E-4B37-A467-1D0D1AC7FD16}.Release|x86.Build.0 = Release|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Release|x64.Build.0 = Release|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC7DE361-E705-450C-AB08-5987259D2C02}.Release|x86.Build.0 = Release|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Release|x64.Build.0 = Release|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9FF815C-3489-43E9-99D7-70BC572C5475}.Release|x86.Build.0 = Release|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Debug|x64.Build.0 = Debug|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Debug|x86.Build.0 = Debug|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Release|x64.ActiveCfg = Release|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Release|x64.Build.0 = Release|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Release|x86.ActiveCfg = Release|Any CPU
+		{56B94246-696D-46C3-9EA6-4727B0C5494F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

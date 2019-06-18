@@ -1,0 +1,28 @@
+#Compose file documentation : https://docs.docker.com/compose/compose-file/
+version: "3.7"
+services:
+  service:
+    container_name: suteservice
+    restart: always
+    image: sutekinanails/suteservice:latest
+    ports: 
+      - "8080:8080"
+    links:
+      - nosql.data
+    build:
+      context: ./suteservice.api
+      dockerfile: Dockerfile
+
+  nosql.data:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./MongoDB:/data/db
+    ports:
+      - "27017:27017"
+
+  learning-managment-system:
+    container_name: canvas-lms
+    image: instructure/canvas-lms
+    ports: 
+      - "8081:8081"

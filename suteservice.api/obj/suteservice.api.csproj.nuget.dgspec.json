@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api/suteservice.api.csproj": {}
+    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/suteservice.api.csproj": {}
   },
   "projects": {
-    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api/suteservice.api.csproj": {
+    "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/suteservice.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api/suteservice.api.csproj",
+        "projectUniqueName": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/suteservice.api.csproj",
         "projectName": "suteservice.api",
-        "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api/suteservice.api.csproj",
+        "projectPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/suteservice.api.csproj",
         "packagesPath": "/Users/rachellavoie/.nuget/packages/",
-        "outputPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice/suteservice.api/obj/",
+        "outputPath": "/Users/rachellavoie/Documents/Programmation/GitHub/sutekinanails/sutekinanails/suteservice.api/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -20,7 +20,7 @@
           "/Users/rachellavoie/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
@@ -32,7 +32,7 @@
           "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -43,16 +43,48 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "Microsoft.AspNetCore": {
               "target": "Package",
-              "version": "[3.0.0-preview5-19227-01, )"
+              "version": "[2.2.0, )"
             },
-            "Microsoft.NETCore.Platforms": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview5.19224.8, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -60,17 +92,7 @@
             "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0-preview5-27626-15, 3.0.0-preview5-27626-15]"
-            }
-          ],
-          "frameworkReferences": [
-            "Microsoft.AspNetCore.App",
-            "Microsoft.NETCore.App"
-          ]
+          "warn": true
         }
       }
     }

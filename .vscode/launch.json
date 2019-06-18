@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/suteservice/bin/Debug/netcoreapp3.0/suteservice.dll",
+            "program": "${workspaceFolder}/suteservice/bin/Debug/netcoreapp2.2/suteservice.dll",
             "args": [],
             "cwd": "${workspaceFolder}/suteservice",
             "stopAtEntry": false,

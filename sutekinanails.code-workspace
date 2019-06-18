@@ -3,14 +3,22 @@
 		{
 			"path": "."
 		},
-		{
+		/*{
 			"name": "api",
 			"path": "suteservice.api"
 		},
 		{
 			"name": "api test",
 			"path": "suteservice.api.test"
-		}
+		}*/
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude" : {
+			"*/obj": true,
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
 }
