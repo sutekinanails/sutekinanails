@@ -3,14 +3,9 @@
 		{
 			"path": "."
 		},
-		/*{
-			"name": "api",
-			"path": "suteservice.api"
-		},
 		{
-			"name": "api test",
-			"path": "suteservice.api.test"
-		}*/
+			"path": "/Users/rachellavoie/Documents/Programmation/MongoDB"
+		}
 	],
 	"settings": {
 		"files.exclude" : {
@@ -19,6 +14,15 @@
 			"**/.project": true,
 			"**/.settings": true,
 			"**/.factorypath": true
+		},
+		"files.autoSave": "afterDelay",
+	    "extensions": {
+			"recommendations": [
+				"formulahendry.docker-explorer",
+				"p1c2u.docker-compose",
+				"formulahendry.dotnet-test-explorer",
+				"formulahendry.dotnet"
+			]
 		}
 	}
 }

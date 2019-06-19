@@ -2,7 +2,8 @@
 
 namespace suteservice.infrastructure
 {
-    public class Class1
+    public class baseRepository
     {
+        
     }
 }

@@ -5,17 +5,23 @@ EXPOSE 8080
 
 # Copy csproj and restore referenced packages in distinct directory
 FROM microsoft/dotnet:2.2-sdk AS build
-WORKDIR "/src/suteservice.api"
-COPY ["suteservice.api.csproj", "./"]
-RUN dotnet restore "suteservice.api.csproj"
+COPY *.csproj ./
+RUN dotnet restore
+# WORKDIR "/src/suteservice.api/.."
+# COPY ["suteservice.api/suteservice.api.csproj", "./suteservice.api/"]
+# RUN dotnet restore "suteservice.api/suteservice.api.csproj"
+# COPY ["suteservice.domain/suteservice.domain.csproj", "./suteservice.domain/"]
+# RUN dotnet restore "suteservice.domain/suteservice.domain.csproj"
+# COPY ["suteservice.infrastructure/suteservice.infrastructure.csproj", "./suteservice.infrastructure/"]
+# RUN dotnet restore "suteservice.infrastructure/suteservice.infrastructure.csproj"
 
 # Copy everything else and build
 COPY . .
-RUN dotnet build "suteservice.api.csproj" -c Release -o /app
+RUN dotnet build "suteservice.api/suteservice.api.csproj" -c Release -o /app
 
 # Build runtime image including the dotnet sdk version 2.2
 FROM build AS publish
-RUN dotnet publish "suteservice.api.csproj" -c Release -o /app
+RUN dotnet publish "suteservice.api/suteservice.api.csproj" -c Release -o /app
 
 # Create Docker Image from the aspnetcore runtime version 2.2
 FROM base AS final

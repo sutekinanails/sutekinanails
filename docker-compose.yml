@@ -7,17 +7,17 @@ services:
     image: sutekinanails/suteservice:latest
     ports: 
       - "8080:8080"
-    links:
-      - nosql.data
+#    links:
+#      - nosql.data
     build:
-      context: ./suteservice.api
+      context: ./
       dockerfile: Dockerfile
 
-  nosql.data:
-    container_name: mongo
-    image: mongo
-    volumes:
-      - ./MongoDB:/data/db
-    ports:
-      - "27017:27017"
+#  nosql.data:
+#    container_name: mongo
+#    image: mongo
+#    volumes:
+#      - ./MongoDB:/data/db
+#    ports:
+#      - "27017:27017"
 
